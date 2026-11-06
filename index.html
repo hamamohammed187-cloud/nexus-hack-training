@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NEXUS HACK | Cybersecurity Training</title>
+<style>
+:root{--bg:#070b14;--panel:#101827;--panel2:#131f32;--line:#23344d;--blue:#38bdf8;--gold:#d9b45b;--text:#edf4ff;--muted:#9aabc2;--green:#45d49a}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#102746 0,transparent 38%),var(--bg);color:var(--text);font-family:Tahoma,Arial,sans-serif;min-height:100vh}
+header{display:flex;align-items:center;justify-content:space-between;padding:18px 5%;border-bottom:1px solid var(--line);background:#080e19dd;position:sticky;top:0;z-index:5;backdrop-filter:blur(12px)}
+.brand{display:flex;gap:12px;align-items:center}.logo{width:44px;height:44px;border:1px solid var(--gold);border-radius:13px;display:grid;place-items:center;color:var(--gold);font-weight:bold;font-size:23px;box-shadow:0 0 22px #d9b45b22}.brand strong{letter-spacing:2px;font-size:17px}.brand small{display:block;color:var(--muted);font-size:10px;letter-spacing:2px;margin-top:4px}
+.pill{border:1px solid #24516c;color:var(--blue);padding:8px 12px;border-radius:30px;font-size:12px}
+main{max-width:1180px;margin:auto;padding:38px 22px 70px}.hero{padding:34px;border:1px solid var(--line);border-radius:22px;background:linear-gradient(120deg,#101d31,#0b1220 65%);position:relative;overflow:hidden}.hero:after{content:"</>";position:absolute;left:5%;top:4px;font-size:130px;color:#38bdf80b;font-weight:bold}.eyebrow{color:var(--gold);font-size:12px;letter-spacing:2px}.hero h1{font-size:clamp(28px,5vw,48px);margin:12px 0}.hero h1 span{color:var(--blue)}.hero p{max-width:650px;color:var(--muted);line-height:2}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+button,.btn{border:0;border-radius:10px;padding:11px 17px;background:linear-gradient(100deg,#1689bd,#2563a7);color:white;font-weight:bold;cursor:pointer;font-size:13px}button.secondary,.btn.secondary{background:#17253a;border:1px solid var(--line);color:var(--text)}button.gold{background:linear-gradient(100deg,#a77d2e,#e0c276);color:#10131a}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:13px;margin:20px 0 32px}.stat,.card,.workspace{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px}.stat b{font-size:25px;color:var(--blue)}.stat span{display:block;color:var(--muted);font-size:12px;margin-top:6px}
+.section-head{display:flex;justify-content:space-between;align-items:end;margin:30px 0 14px}.section-head h2{margin:0;font-size:21px}.section-head small{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card{transition:.2s}.card:hover{transform:translateY(-3px);border-color:#3b83aa}.card .ico{font-size:25px}.card h3{margin:13px 0 8px}.card p{color:var(--muted);font-size:13px;line-height:1.8;min-height:48px}.tag{font-size:10px;color:var(--gold);border:1px solid #6c5730;padding:5px 8px;border-radius:20px;display:inline-block;margin:3px 0 12px}
+.workspace{margin-top:22px;display:none}.workspace.active{display:block}.workspace h2{margin-top:0}.instruction{background:#0a1322;border:1px solid var(--line);padding:15px;border-radius:12px;line-height:2;color:#d9e6f7}.task{margin:14px 0;padding:14px;border:1px solid var(--line);border-radius:12px}.task label{display:block;margin-bottom:10px;font-weight:bold}.task input{width:100%;padding:12px;border-radius:9px;border:1px solid #344b68;background:#080f1b;color:white;font-size:14px}.feedback{margin-top:10px;color:var(--green);font-size:13px;min-height:20px}.bar{height:7px;background:#1d2b40;border-radius:9px;overflow:hidden;margin:12px 0}.bar i{display:block;height:100%;width:0;background:var(--green);transition:.3s}
+footer{border-top:1px solid var(--line);padding:24px;text-align:center;color:var(--muted);font-size:11px;line-height:2}
+.notice{color:#f2d48a;font-size:12px;line-height:1.8;margin-top:15px}
+@media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:560px){header{padding:13px 4%}.pill{display:none}main{padding:22px 14px 50px}.hero{padding:24px 18px}.stats{gap:8px}.stat{padding:12px}.stat b{font-size:20px}.grid{grid-template-columns:1fr}.card p{min-height:0}.section-head{align-items:start;gap:8px;flex-direction:column}}
+</style>
+</head>
+<body>
+<header>
+ <div class="brand"><div class="logo">N</div><div><strong>NEXUS HACK</strong><small>LEARN • BUILD • PROTECT</small></div></div>
+ <div class="pill">منصة التدريب الأمني</div>
+</header>
+<main>
+ <section class="hero">
+  <div class="eyebrow">CYBERSECURITY TRAINING ENVIRONMENT</div>
+  <h1>تعلّم الأمن السيبراني<br><span>بالتجربة العملية</span></h1>
+  <p>منصة تدريب عربية تجمع مختبرات محاكاة وتحديات تعليمية. تعلّم المفاهيم الأمنية، نفّذ المهام، واختبر فهمك داخل بيئة تدريبية آمنة.</p>
+  <div class="actions"><button onclick="document.getElementById('labs').scrollIntoView({behavior:'smooth'})">استكشف المختبرات</button><button class="secondary" onclick="showLab('intro')">ابدأ التعلم</button></div>
+  <div class="notice">هذه نسخة تجريبية تعليمية. جميع الحسابات والبيانات والسيناريوهات افتراضية، ولا تتصل بأي بنك أو نظام حقيقي.</div>
+ </section>
+ <section class="stats">
+  <div class="stat"><b id="doneCount">0</b><span>مهام مكتملة</span></div>
+  <div class="stat"><b>06</b><span>مختبرات تعليمية</span></div>
+  <div class="stat"><b id="score">0</b><span>نقاط التدريب</span></div>
+ </section>
+ <div class="section-head" id="labs"><h2>مختبرات التدريب</h2><small>اختر مختبراً لعرض التعليمات والمهام</small></div>
+ <section class="grid">
+  <article class="card"><div class="ico">🏦</div><h3>المختبر المصرفي</h3><p>تعرّف على واجهات الحسابات الوهمية ومبادئ حماية تسجيل الدخول والخصوصية.</p><span class="tag">مبتدئ</span><br><button onclick="showLab('bank')">دخول المختبر</button></article>
+  <article class="card"><div class="ico">🌐</div><h3>أمن تطبيقات الويب</h3><p>تعلّم التحقق من المدخلات والجلسات ورسائل الأخطاء من خلال أمثلة محاكاة.</p><span class="tag">مبتدئ</span><br><button onclick="showLab('web')">دخول المختبر</button></article>
+  <article class="card"><div class="ico">🖧</div><h3>مختبر الشبكات</h3><p>افهم عناوين IP والمنافذ ومبادئ تقسيم الشبكات ومراقبة حركة تجريبية.</p><span class="tag">مبتدئ</span><br><button onclick="showLab('network')">دخول المختبر</button></article>
+  <article class="card"><div class="ico">💻</div><h3>مختبر الأكواد</h3><p>اقرأ أمثلة برمجية بسيطة واكتشف أخطاء التحقق والمنطق في شيفرات تدريبية.</p><span class="tag">مبتدئ</span><br><button onclick="showLab('code')">دخول المختبر</button></article>
+  <article class="card"><div class="ico">🧾</div><h3>التحليل الجنائي الرقمي</h3><p>تدرّب على ترتيب الأدلة الرقمية الافتراضية وفهم التسلسل الزمني للأحداث.</p><span class="tag">مبتدئ</span><br><button onclick="showLab('forensics')">دخول المختبر</button></article>
+  <article class="card"><div class="ico">🚩</div><h3>تحديات CTF</h3><p>حل ألغاز تعليمية حول كلمات المرور والتشفير والترميز والمنطق الأمني.</p><span class="tag">تحديات</span><br><button onclick="showLab('ctf')">دخول المختبر</button></article>
+ </section>
+ <section class="workspace" id="workspace">
+  <div class="section-head"><h2 id="labTitle">المختبر</h2><button class="secondary" onclick="closeLab()">إغلاق</button></div>
+  <div class="instruction" id="labIntro"></div>
+  <div class="task"><label id="taskLabel"></label><div id="taskBody"></div><div class="feedback" id="feedback"></div></div>
+  <div class="bar"><i id="progress"></i></div>
+  <small style="color:var(--muted)" id="progressText">إنجاز المهام: 0%</small>
+ </section>
+</main>
+<footer>NEXUS HACK · LEARN • BUILD • PROTECT<br>منصة محاكاة تعليمية مستقلة — لا تستخدم بيانات حقيقية أو كلمات مرور حقيقية.</footer>
+<script>
+const labs={
+intro:{title:"ابدأ رحلتك",intro:"مرحباً بك في NEXUS HACK. اختر أحد المختبرات، اقرأ التعليمات، ثم أجب عن المهمة. لا تدخل أي بيانات شخصية حقيقية في هذه المنصة.",label:"سؤال البداية: ما القاعدة الأساسية قبل اختبار أي نظام؟",kind:"choice",choices:["الحصول على إذن واضح","تجربة أي موقع عشوائياً","استخدام حساب شخص آخر"],answer:0,success:"صحيح! الاختبار الأمني يجب أن يتم بإذن واضح وضمن نطاق مصرح به."},
+bank:{title:"BANK LAB — المختبر المصرفي",intro:"أنت داخل بنك افتراضي للتدريب فقط. راجع السيناريو وتعلّم كيف تحمي حساباً تجريبياً. لا توجد معاملات مالية أو حسابات حقيقية.",label:"مهمة 01: ما الإجراء الأقوى لحماية تسجيل الدخول التجريبي؟",kind:"choice",choices:["استخدام كلمة مرور قصيرة","تفعيل المصادقة متعددة العوامل","مشاركة رمز التحقق"],answer:1,success:"أحسنت! المصادقة متعددة العوامل تضيف طبقة حماية إضافية."},
+web:{title:"WEB SECURITY LAB — أمن الويب",intro:"في هذا السيناريو، يطلب نموذج تجريبي من المستخدم إدخال بريد إلكتروني. يجب على التطبيق التحقق من صحة المدخلات وعرض رسائل واضحة دون كشف معلومات حساسة.",label:"مهمة 01: أي ممارسة أفضل عند استقبال مدخلات المستخدم؟",kind:"choice",choices:["التحقق من المدخلات على الخادم","الثقة بكل ما يكتبه المستخدم","عرض تفاصيل قاعدة البيانات عند الخطأ"],answer:0,success:"صحيح! التحقق من المدخلات على الخادم ممارسة أساسية."},
+network:{title:"NETWORK LAB — مختبر الشبكات",intro:"تعرّف على مكونات الشبكة من خلال سيناريو افتراضي. عنوان IP يعرّف واجهة على شبكة، والمنفذ يحدد خدمة أو تطبيقاً.",label:"مهمة 01: ما وظيفة عنوان IP؟",kind:"choice",choices:["تحديد عنوان واجهة على الشبكة","تشفير كل الملفات تلقائياً","زيادة سرعة المعالج"],answer:0,success:"إجابة صحيحة! عنوان IP يساعد على تحديد واجهة الجهاز على الشبكة."},
+code:{title:"CODE LAB — مختبر الأكواد",intro:"راجع المبدأ البرمجي: لا ينبغي للتطبيق أن يفترض أن المدخلات صحيحة. يجب فحص النوع والطول والقيم المسموح بها قبل استخدامها.",label:"مهمة 01: ماذا يجب أن يفعل البرنامج قبل معالجة مدخل المستخدم؟",kind:"choice",choices:["يتحقق من صحة المدخلات","ينفذها مباشرة دون فحص","يتجاهل الأخطاء"],answer:0,success:"ممتاز! التحقق من المدخلات يقلل الأخطاء والمخاطر الأمنية."},
+forensics:{title:"DIGITAL FORENSICS — التحليل الجنائي",intro:"في التحليل الجنائي الرقمي، من المهم توثيق مصدر الدليل والحفاظ على سلامته وتسجيل خطوات التعامل معه.",label:"مهمة 01: ما أول مبدأ عند التعامل مع دليل رقمي؟",kind:"choice",choices:["تعديله لتحسينه","الحفاظ على سلامته وتوثيق التعامل معه","حذفه بعد الاطلاع"],answer:1,success:"صحيح! سلامة الدليل والتوثيق عنصران أساسيان."},
+ctf:{title:"CTF CHALLENGES — تحديات",intro:"تحدٍ تعليمي بسيط حول الترميز. تذكّر أن Base64 طريقة ترميز وليست تشفيراً آمناً.",label:"مهمة 01: هل Base64 يُعد تشفيراً يحمي السرية؟",kind:"choice",choices:["نعم، تشفير قوي","لا، هو ترميز ويمكن فكّه","يعمل فقط مع الصور"],answer:1,success:"صحيح! Base64 ترميز وليس وسيلة تشفير لحماية الأسرار."}
+};
+let completed=new Set(JSON.parse(localStorage.getItem('nexusDone')||'[]')), current='';
+function updateStats(){document.getElementById('doneCount').textContent=completed.size;document.getElementById('score').textContent=completed.size*100;}
+function showLab(id){current=id;const l=labs[id];document.getElementById('workspace').classList.add('active');document.getElementById('labTitle').textContent=l.title;document.getElementById('labIntro').textContent=l.intro;document.getElementById('taskLabel').textContent=l.label;document.getElementById('feedback').textContent=completed.has(id)?'تم إكمال هذه المهمة سابقاً. يمكنك مراجعتها.':'';document.getElementById('taskBody').innerHTML='<div style="display:grid;gap:9px">'+l.choices.map((c,i)=>`<button class="secondary" style="text-align:right" onclick="checkAnswer(${i})">${c}</button>`).join('')+'</div>';let pct=completed.has(id)?100:0;document.getElementById('progress').style.width=pct+'%';document.getElementById('progressText').textContent='إنجاز المهمة: '+pct+'%';document.getElementById('workspace').scrollIntoView({behavior:'smooth'});}
+function checkAnswer(i){const l=labs[current],f=document.getElementById('feedback');if(i===l.answer){f.textContent=l.success;if(!completed.has(current)){completed.add(current);localStorage.setItem('nexusDone',JSON.stringify([...completed]));updateStats();}document.getElementById('progress').style.width='100%';document.getElementById('progressText').textContent='إنجاز المهمة: 100%';}else{f.textContent='ليست الإجابة الصحيحة. راجع التعليمات وحاول مرة أخرى.';f.style.color='#f2b36e';}}
+function closeLab(){document.getElementById('workspace').classList.remove('active');current='';}
+updateStats();
+</script>
+</body></html>
